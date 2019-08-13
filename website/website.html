@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>초밥은 맛있어</title>
+	<style type="text/css">
+	h1 {
+		font-size: 45px;
+		color: black;
+		text-align: center;
+	}
+	img {
+		position: relative;
+		left: 200px;
+		text-align: center;
+	}
+	h3 {
+		font-size: 20px;
+		text-align: center;
+	}
+	span {
+		background-color: white;
+		padding: 15px;
+		text-align: center;
+	}
+	body {
+		background-color: skyblue;
+	}
+	li {
+		list-style-type : none;
+	}
+	#nav li{
+		display: inline-block;
+		color: black;
+		font-size: 20px;
+		height: 50px;
+		width: 100px;
+		margin-left: 90px;
+		text-align: center;
+	}
+	ul {
+		position: relative;
+		right: 120px;
+	}
+	.fish {
+		position: relative;
+	}
+	.fishsushi {
+		position: absolute;
+		z-index: 1;
+		top: 50px;
+		width: 200px;
+		height: 300px;
+		background-color: #fff;
+		display: none; 
+	}
+	.fish:hover .fishsushi{
+		display: block;
+	}
+	#nav {
+		background-color: pink;
+		position: relative;
+		
+	}
+	.post {
+		background-color: white;
+		display: inline-block;
+		height: 400px;
+		width: 400px;
+		margin: 100px;
+		position: relative;
+		left: 150px;
+	}
+	.more{
+		float: right;
+	}
+</style>
+</head>
+
+<body>
+	
+	<h1>오늘은 초밥이다!</h1>
+	<div id="nav">
+		<li class="fish">
+			생선초밥
+			<div class="fishsushi">
+				<ul>
+					<li><a href="">장어초밥</a></li><br>
+					<li><a href="">연어초밥</a></li><br>
+					<li><a href="">새우초밥</a></li><br>
+				</ul>
+			</div>
+		</li>
+		<li class="fish">
+			알초밥
+			<div class="fishsushi">
+				<ul>
+					<li><a href="">연어알초밥</a></li><br>
+					<li><a href="">날치알초밥</a></li><br>
+					<li><a href="">청어알초밥</a></li><br>
+					<li><a href="">명란초밥</a></li><br>
+				</ul>	
+			</div>
+		<li class="fish">
+			기타초밥
+			<div class="fishsushi">
+				<ul>
+					<li><a href="">계란말이초밥</a></li><br>
+					<li><a href="">유부초밥</a></li><br>
+					<li><a href="">문어초밥</a></li><br>
+				</ul>
+			</div>
+		<li class="fish"><a href="">리뷰</a>
+		<li class="fish"><a href="">공지사항</a>
+	</div>
+	<img src="./gin.png" height="400px" width="1200px"><br>
+	<img src="./ss.jpg" height="400" width="400">
+	<img src="./sushi.jpg" height="400" width="400">
+	<img src="./co.png" height="400" width="400">
+	<div>
+		<span class="post">
+			<a href="./websitepub.html" class="more">더보기</a>
+			<h3>공지사항 & 업데이트</h3>
+			<hr><p>01.27 웹사이트 제작!</p>
+		</span>
+		<span class="post">
+			<a href="./websitepub2.html" class="more">더보기</a>
+			<h3>게시판 & 리뷰</h3>
+			<hr>
+			<p>01.27 게시판 제작</p>
+		</span>
+	</div>
+</body>
+</html>
+    
